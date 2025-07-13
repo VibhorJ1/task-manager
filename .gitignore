@@ -19,3 +19,4 @@ build/
 # Ignore IDE configs
 .vscode/
 .idea/
+backend/.env
