@@ -37,11 +37,10 @@ task-manager/
 ### Environment Variables
 Create a `.env` file in `backend/` with the following (see `settings.py`):
 ```
-SECRET_KEY=your-django-secret-key
+SECRET_KEY='django-insecure-kglvsi*c7=_gic^$-#z2pct*12t57g(gbbh9bmnoequp$x!6sz'
 DEBUG=True
 ALLOWED_HOSTS=*
 OPENAI_API_KEY=your-openai-key
-HUGGINGFACE_API_KEY=your-huggingface-key
 ```
 
 ---
