@@ -25,7 +25,6 @@ db.sqlite3
 *.pid.lock
 *.db
 *.sqlite3
-Dockerfile*
 .dockerignore
 
 # Environment variables
