@@ -1,23 +1,39 @@
-# Ignore Python bytecode
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 
-# Ignore environment files
+# Virtual environments
+venv/
+ENV/
+.env/
+
+# Django
+*.log
+db.sqlite3
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+*.db
+*.sqlite3
+Dockerfile*
+.dockerignore
+
+# Environment variables
 .env
 
-# Ignore system files
-.DS_Store
-Thumbs.db
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
 
-# Ignore node_modules or dependencies
-node_modules/
-
-# Ignore build/output directories
-dist/
-build/
-
-# Ignore IDE configs
-.vscode/
-.idea/
-backend/.env
-backend/.env
+# Other
+*.swp
